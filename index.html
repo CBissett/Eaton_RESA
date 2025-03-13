@@ -6,11 +6,55 @@
 <head>
 <meta charset="utf-8">
 <title>Christina's site</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Charmonman:wght@400;700&display=swap" rel="stylesheet">
 <style>
     body{background:#d9c0a7}
     p{color:#0d3524}
-    h1{color:#0d3524}
-    h2{color:#0d3524}
+    h1{color:#0d3524; font-family: "Charmonman", cursive;}
+    h2{color:#0d3524; font-family: "Charmonman", cursive;}
+    body { font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;}
+
+    ul{margin:0;
+       padding:0;
+       list-style-type:none;}
+ul a {
+    margin-bottom: 10px;
+}
+    .three{display:block;
+       background:rgb(125, 149, 125);
+       width:100px;
+       text-align: center;
+       border-radius: 10px;
+       text-decoration: none;
+       color:#31463e}
+    .three:hover{color:black;
+    background:pink;
+    text-decoration: underline wavy;}
+    
+    .two{display:block;
+       background:rgb(125, 149, 125);
+       width:100px;
+       text-align: center;
+       border-radius: 10px;
+       text-decoration: none;
+       color:#31463e}
+    .two:hover{color:black;
+    background:rgb(202, 182, 225);
+    text-decoration: underline;}
+
+    .one{display:block;
+       background:rgb(125, 149, 125);
+       width:100px;
+       text-align: center;
+       border-radius: 10px;
+       text-decoration: none;
+       color:#31463e}
+    .one:hover{color:black;
+    background:rgb(244, 208, 155);
+    text-decoration: underline dotted;}
+
 </style>
 </head>
             
@@ -26,9 +70,9 @@
 
 <h2>MY PAGES</h2>
 <ul>
-    <li><a href="text.html">Text Page</a></li>
-    <li><a href="Boxes.html">Box Box Box Box</a></li>
-    <li><a href="Links.html">Links</a></li>
+    <li><a class="three" href="text.html">Text Page</a></li>
+    <li><a class="two" href="Boxes.html">Box Box Box Box</a></li>
+    <li><a class="one" href="Links.html">Links</a></li>
 </ul>
 </body>
 
