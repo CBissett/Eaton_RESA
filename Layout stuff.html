@@ -1,0 +1,66 @@
+<!doctype html>
+            
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+<title>Layout</title>
+<style>
+    body{background: rgb(63, 2, 83);
+    
+        .container {  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 10px 10px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "Navigation Navigation Navigation"
+    "side content content"
+    "side content content"
+    "footer footer footer";
+}
+
+.side { grid-area: side; 
+background-color:rgb(192, 137, 244)}
+
+.Navigation { grid-area: Navigation; 
+background-color: rgb(192, 137, 244);
+text-align:center}
+
+.content { grid-area: content;
+background-color: rgb(192, 137, 244)}
+
+.footer { grid-area: footer;
+background-color: rgb(192, 137, 244);
+text-align:center}
+
+
+</style>
+</head>
+            
+<body>
+    <div class="container">
+  <div class="side"> I'm so tied of doing thisssssss. I wanna go homeeeeee.</div>
+  <div class="Navigation"><h1>Mr Chad said I had to put actual content in this and I think thats pretty rude so here is random stupid laws.</h1></div>
+  <div class="content">
+    <ul>
+        <li>You can't wear hoods in public in Dublin, Georgia.</li>
+        <li>In Topeka, Kansas it is illegal to sing the alphabet out on the street at night.</li>
+        <li>All forms of oral sex are illegal in Maryland, either with people or animals.</li>
+        <li> It's illegal to give a moose any alcoholic beverages in the city of Fairbanks, Alaska.</li>
+        <li>It's illegal to eat raw onions while walking down the street in Northfield, Connecticut.</li>
+        <li>In Nacodoches, Texas, there's an onion curfew for young women. Under no circumstances are they allowed to have any raw onions after 6 p.m.</li>
+        <li>California: It's illegal to eat a frog if it died during a frog-jumping competition.</li>
+        <li>Arizona: You can't have a donkey sleeping in your bathtub after 7 p.m.</li>
+        <li>Delaware: It's against the law for a pawnbroker to accept an artificial limb or wheelchair as payment.</li>
+        <li>Maine: It's illegal to bite your landlord.</li>
+        <li>Michigan: It's illegal to tie a crocodile or alligator to a fire hydrant.</li>
+    </ul>
+  </div>
+  <div class="footer"><h2>I hope you enjoyed that.</h2></div>
+</div>
+
+<p><a href="index.html">GO TO BED</a></p>
+</body>
+
+</html>
